@@ -1,6 +1,6 @@
 html,
 body {
-  overflow: visible;
+  overflow: hidden;
   height: 100%;
 }
 
@@ -10,4 +10,156 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
+  background-color: #2d76ee;
+  color: #fff;
+  position: fixed;
+  top: 0;
+}
+
+.top-bar {
+  padding: 15px;
+}
+
+.top-bar-title > h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.top-bar-content > p {
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 4px;
+  margin: 0;
+  letter-spacing: 0.01em;
+  display: inline;
+}
+
+.top-bar-content a {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+.top-bar-content > span {
+  margin-left: 25px;
+}
+
+.top-bar-extra {
+  border-top: 1px solid #fff;
+}
+
+.record-details > a,
+.live-page > a {
+  color: #fff;
+  vertical-align: baseline;
+}
+
+.record-details {
+  padding-left: 15px;
+  width: 45%;
+  border-right: 1px solid #fff;
+  justify-content: space-between;
+}
+
+.live-page {
+  padding-right: 15px;
+  width: 45%;
+  justify-content: flex-end;
+}
+
+.live-page > a {
+  right: 0;
+}
+
+.live-page i {
+  padding-left: 5px;
+  font-weight: 500;
+}
+
+.record-details,
+.live-page {
+  display: inline-flex;
+  height: 35px;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  padding-bottom: 15px;
+}
+
+.nav-bar {
+  background-color: #fff;
+  position: relative;
+}
+
+.logo {
+  background-color: #000;
+  display: inline-block;
+  padding: 16px 20px;
+}
+
+.logo img {
+  width: 66px;
+}
+
+.nav-icons {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.nav-icons ul {
+  margin: 0;
+  padding: 0;
+}
+
+.search {
+  transform: scaleX(-1);
+}
+
+.nav-icons li {
+  display: inline;
+  border-left: 1px solid #eee;
+  float: left;
+}
+
+.nav-icons i {
+  font-size: 20px;
+  color: #555;
+}
+
+.nav-icons li a {
+  display: block;
+  padding: 15px;
+}
+
+.notify {
+  background-color: #fd3;
+  text-align: center;
+}
+
+.notify .notify-text {
+  color: #000;
+  line-height: 60px;
+  font-size: 12px;
+}
+
+/* HoverTags */
+
+.top-bar-content a:hover {
+  text-decoration: underline;
+  border-color: #0092ff;
 }
