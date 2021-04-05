@@ -1,6 +1,6 @@
 html,
 body {
-  overflow: hidden;
+  overflow: visible;
   height: 100%;
 }
 
@@ -18,13 +18,25 @@ a {
   text-decoration: none;
 }
 
-header {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.sticky-top {
   width: 100%;
   font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
   background-color: #2d76ee;
   color: #fff;
   position: fixed;
   top: 0;
+  z-index: 9999999;
 }
 
 .top-bar {
@@ -155,6 +167,115 @@ header {
   color: #000;
   line-height: 60px;
   font-size: 12px;
+}
+
+main {
+  margin-top: 100px;
+}
+
+.cover-story {
+  position: relative;
+  min-height: 30vh;
+}
+
+.cover-image {
+  background-color: #000;
+  background-size: cover;
+  background-position: center center;
+  z-index: -11;
+  bottom: 4px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+/* Article Background Images */
+
+.cover-background-image {
+  background-image: url(./Assets/google-calendar-796x345.jpg);
+}
+
+.cover-background-image-1 {
+  background-image: url(./Assets/boost.png);
+}
+
+.cover-background-image-2 {
+  background-image: url(./Assets/numi-calculator-796x418.jpg);
+}
+
+.cover-trigger {
+  transition: background-color 0.4s ease;
+  background: rgba(0, 0, 0, 0.25) url(./Assets/image-gradient.png) no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  will-change: background-color;
+  z-index: 2;
+  bottom: 4px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.cover-header {
+  z-index: 5;
+  bottom: 0;
+  left: 4px;
+  position: absolute;
+  right: 4px;
+  color: #fff;
+  padding: 14px 12px;
+}
+
+.cover-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 5px;
+}
+
+.cover-byline {
+  list-style: none;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.cover-byline .cover-list {
+  display: inline-block;
+}
+
+.cover-list-padding-left {
+  padding-left: 5px;
+}
+
+.cover-list-a {
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 5px;
+}
+
+.latest-news-section {
+  padding-top: 24px;
+  margin: 0 auto;
+}
+
+.latest-news {
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.latest-news-heading {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 28px;
+}
+
+.news-story {
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  margin: -8px;
 }
 
 /* HoverTags */
