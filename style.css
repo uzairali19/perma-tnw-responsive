@@ -1,6 +1,8 @@
+/* General CSS Rules */
+
 html,
 body {
-  overflow: visible;
+  overflow-x: hidden;
   height: 100%;
 }
 
@@ -24,10 +26,19 @@ h3,
 h4,
 h5,
 h6,
-ul {
+ul,
+p {
   margin: 0;
   padding: 0;
 }
+
+ul {
+  list-style: none;
+}
+
+/* General Rules End */
+
+/* Header Sticky Section */
 
 .sticky-top {
   width: 100%;
@@ -169,9 +180,15 @@ ul {
   font-size: 12px;
 }
 
+/* Header Sticky Section End */
+
+/* Main Body Section */
+
 main {
   margin-top: 100px;
 }
+
+/* Body Highlights Section */
 
 .cover-story {
   position: relative;
@@ -203,6 +220,8 @@ main {
 .cover-background-image-2 {
   background-image: url(./Assets/numi-calculator-796x418.jpg);
 }
+
+/* Article Background Images End */
 
 .cover-trigger {
   transition: background-color 0.4s ease;
@@ -254,6 +273,10 @@ main {
   padding-left: 5px;
 }
 
+/* Body Highlights Section End */
+
+/* Latest News Section */
+
 .latest-news-section {
   padding-top: 24px;
   margin: 0 auto;
@@ -262,6 +285,10 @@ main {
 .latest-news {
   padding: 0 20px;
   margin-top: 30px;
+}
+
+.latest-news-h2 {
+  margin-bottom: 24px;
 }
 
 .latest-news-heading {
@@ -277,6 +304,86 @@ main {
   flex-flow: row wrap;
   margin: -8px;
 }
+
+.news-outline {
+  flex-basis: 100%;
+  max-width: 100%;
+  margin-bottom: 12px;
+}
+
+.news-layout {
+  position: relative;
+  min-height: 72px;
+  padding-left: 88px;
+}
+
+.news-layout .news-layout-img {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 75px;
+  padding-top: 75px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.news-layout-heading-text {
+  color: #000;
+}
+
+.news-sub {
+  display: inline-block;
+}
+
+.news-sub > p {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.news-sub > p::after {
+  content: "\B7";
+  display: block;
+  float: right;
+  margin: 0 4px;
+}
+
+/* Images for news layout */
+
+.news-img-1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/jameswebb-527x270.jpg");
+}
+
+.news-img-2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/danial-igdery-FCHlYvR5gJI-unsplash-1-405x270.jpg");
+}
+
+.news-img-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/10/coinbase-514x270.jpg");
+}
+
+.news-img-4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/developer-salary-manager-gq-516x270.png");
+}
+
+.news-img-5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/NASA-Nancy-Grace-Roman-Telescope-hed-513x270.jpg");
+}
+
+.news-img-6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/41234217792_93a621a7be_k-e1617601734268-513x270.jpg");
+}
+
+.news-img-7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/LG-Wing-514x270.jpg");
+}
+
+.news-img-8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/cern-516x270.jpg");
+}
+
+/* Images for News Layout End */
+
+/* Latest News Section End */
 
 /* HoverTags */
 
