@@ -733,10 +733,6 @@ main {
     display: none;
   }
 
-  .sticky-top {
-    margin-top: 30px;
-  }
-
   .nav-links {
     display: inline-block;
     position: absolute;
