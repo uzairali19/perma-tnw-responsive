@@ -1,5 +1,10 @@
 /* General CSS Rules */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   overflow-x: hidden;
@@ -12,24 +17,10 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
-  margin: 0;
-  padding: 0;
 }
 
 a {
   text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ul,
-p {
-  margin: 0;
-  padding: 0;
 }
 
 ul {
@@ -664,7 +655,7 @@ main {
     font-size: 12px;
   }
 
-  .cover-story:first-child {
+  .cover-story-1 {
     height: 100%;
     width: 66.66666%;
     padding: 4px;
@@ -793,7 +784,7 @@ main {
     position: relative;
   }
 
-  .cover-story:first-child {
+  .cover-story-1 {
     height: 100%;
     width: 66.66666%;
     padding: 4px;
