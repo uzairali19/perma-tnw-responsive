@@ -1,0 +1,798 @@
+/* General CSS Rules */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* General Rules End */
+
+/* Header Sticky Section */
+
+.sticky-top {
+  width: 100%;
+  font-family: "Roboto", Helvetica, Arial, "Lucida Grande", sans-serif;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background-color: #fff;
+}
+
+.nav-bar {
+  background-color: #fff;
+  position: relative;
+}
+
+.nav-links {
+  display: none;
+}
+
+.nav-top {
+  display: none;
+  background-color: black;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 32px;
+  max-height: 32px;
+  position: relative;
+  z-index: 2;
+}
+
+.nav-top-list {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-top-link {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.active {
+  color: #fff;
+}
+
+.nav-company {
+  float: right;
+}
+
+.nav-company .nav-top-list {
+  margin-right: 20px;
+  margin-left: 0;
+}
+
+.logo {
+  background-color: #000;
+  display: inline-block;
+  padding: 16px 20px;
+}
+
+.logo img {
+  width: 66px;
+}
+
+.nav-link {
+  height: 48px;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  padding: 18px 10px 0;
+  font-family: Shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #aaa;
+}
+
+.nav-link-list {
+  display: inline-block;
+}
+
+.nav-icons {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.nav-icons ul {
+  margin: 0;
+  padding: 0;
+}
+
+.search {
+  transform: scaleX(-1);
+}
+
+.nav-icons li {
+  display: inline;
+  border-left: 1px solid #eee;
+  float: left;
+}
+
+.nav-icons i {
+  font-size: 20px;
+  color: #555;
+}
+
+.nav-icons li a {
+  display: block;
+  padding: 15px;
+}
+
+.nav-right-list {
+  float: right;
+}
+
+.notify {
+  background-color: #fd3;
+  text-overflow: ellipsis;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  color: #000;
+  text-align: center;
+}
+
+.notify .notify-text {
+  color: #000;
+  line-height: 60px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+/* Header Sticky Section End */
+
+/* Footer */
+
+.footer-links {
+  background-color: #131313;
+  padding: 3em 0 2em;
+}
+
+.footer-social {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-social li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.footer-social li a {
+  color: #fff;
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  padding: 12px;
+}
+
+.footer-social li a i {
+  font-size: 20px;
+}
+
+.nav-footer-links {
+  max-width: 100%;
+  padding: 10px 20px 0;
+  text-align: center;
+}
+
+.nav-footer-links li {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+.nav-footer-links li a {
+  color: #aaa;
+}
+
+.footer-black {
+  background-color: black;
+}
+
+.copyright {
+  padding: 3em 20px;
+  margin: 0 auto;
+  max-width: 1192px;
+}
+
+.copyright-content {
+  text-align: center;
+}
+
+.copyright-content .footer-col {
+  display: inline-block;
+}
+
+.copy-logo img {
+  display: inline-block;
+  height: 9px;
+  margin-right: 1px;
+  vertical-align: baseline;
+}
+
+.next-copy {
+  color: #aaa;
+}
+
+.copy {
+  color: #fff;
+}
+
+/* Footer End */
+
+/* Main Body Section */
+
+main {
+  margin-top: 100px;
+}
+
+/* Body Highlights Section */
+
+.cover-story {
+  position: relative;
+  min-height: 30vh;
+}
+
+.cover-image {
+  background-color: #000;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  z-index: -11;
+  bottom: 4px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+/* Article Background Images */
+
+.cover-background-image {
+  background-image: url(./Assets/google-calendar-796x345.jpg);
+}
+
+.cover-background-image-1 {
+  background-image: url(./Assets/boost.png);
+}
+
+.cover-background-image-2 {
+  background-image: url(./Assets/numi-calculator-796x418.jpg);
+}
+
+/* Article Background Images End */
+
+.cover-trigger {
+  transition: background-color 0.4s ease;
+  background: rgba(0, 0, 0, 0.25) url(./Assets/image-gradient.png) no-repeat;
+  background-size: 100% 100%;
+  display: block;
+  will-change: background-color;
+  z-index: 2;
+  bottom: 4px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.cover-header {
+  z-index: 5;
+  bottom: 0;
+  left: 4px;
+  position: absolute;
+  right: 4px;
+  color: #fff;
+  padding: 14px 12px;
+}
+
+.cover-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 5px;
+}
+
+.cover-byline {
+  list-style: none;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.cover-byline .cover-list {
+  display: inline-block;
+}
+
+.cover-list-padding-left {
+  padding-left: 5px;
+}
+
+.cover-list-a {
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 5px;
+}
+
+/* Body Highlights Section End */
+
+/* Latest News Section */
+
+.latest-news-section,
+.latest-funding-section {
+  padding-top: 24px;
+  margin: 0 auto;
+}
+
+.latest-news,
+.latest-funding {
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.latest-news-h2,
+.latest-funding-h2 {
+  margin-bottom: 24px;
+}
+
+.latest-news-heading,
+.latest-funding-heading {
+  color: #f42;
+  font-weight: 700;
+  line-height: 1.1;
+  font-size: 28px;
+}
+
+.news-story {
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  margin: -8px;
+}
+
+.news-outline {
+  flex-basis: 100%;
+  max-width: 100%;
+  margin-bottom: 12px;
+}
+
+.news-layout {
+  position: relative;
+  min-height: 72px;
+  padding-left: 88px;
+}
+
+.news-layout .news-layout-img {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 75px;
+  padding-top: 75px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.news-layout-heading-text {
+  color: #000;
+}
+
+.news-sub {
+  display: inline-block;
+}
+
+.news-sub > p {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.news-sub > p::after {
+  content: "\B7";
+  display: block;
+  float: right;
+  margin: 0 4px;
+}
+
+/* Images for news layout */
+
+.news-img-1 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/jameswebb-527x270.jpg");
+}
+
+.news-img-2 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/danial-igdery-FCHlYvR5gJI-unsplash-1-405x270.jpg");
+}
+
+.news-img-3 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/10/coinbase-514x270.jpg");
+}
+
+.news-img-4 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/developer-salary-manager-gq-516x270.png");
+}
+
+.news-img-5 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/NASA-Nancy-Grace-Roman-Telescope-hed-513x270.jpg");
+}
+
+.news-img-6 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/41234217792_93a621a7be_k-e1617601734268-513x270.jpg");
+}
+
+.news-img-7 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/LG-Wing-514x270.jpg");
+}
+
+.news-img-8 {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/cern-516x270.jpg");
+}
+
+/* Images for News Layout End */
+
+/* Latest News Section End */
+
+/* Latest Funding Section Start */
+
+.latest-funding-section {
+  margin-bottom: 50px;
+}
+
+.latest-funding-more {
+  display: block;
+  color: #f42;
+  margin-top: 10px;
+}
+
+.funding-container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px;
+}
+
+.funding-outline {
+  margin-bottom: 30px;
+}
+
+.main-head {
+  text-align: center;
+  position: relative;
+}
+
+.funding-title-logo {
+  width: 60px;
+  max-width: 60px;
+  height: 60px;
+  max-height: 60px;
+  margin: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.funding-title {
+  background: #f42;
+  color: #fff;
+  padding: 10px 16px 10px 84px;
+  font-size: 18px;
+  text-align: left;
+}
+
+.fund-amount {
+  padding: 10.6666666667px 16px 10.6666666667px 84px;
+  color: #000;
+  background: rgba(255, 68, 34, 0.08);
+}
+
+.fund-amount h4 {
+  font-size: 18px;
+}
+
+.fund-amount h5 {
+  opacity: 0.5;
+}
+
+.investment-card {
+  padding: 16px;
+  background: rgba(255, 68, 34, 0.03);
+}
+
+.margin-investment {
+  margin-bottom: 20px;
+}
+
+.investment-list {
+  padding-top: 10px;
+}
+
+.investment-list .color {
+  color: #333;
+}
+
+.investment-list a span {
+  color: #555;
+  margin-left: 10px;
+}
+
+.caption {
+  border-top: 1px solid rgba(255, 68, 34, 0.25);
+  padding: 16px;
+  background: rgba(255, 68, 34, 0.03);
+  margin-top: 10px;
+}
+
+.caption h6 {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.caption .small {
+  color: #aaa;
+}
+
+/* HoverTags */
+
+.top-bar-content a:hover {
+  text-decoration: underline;
+  border-color: #0092ff;
+}
+
+.footer-social li a:hover {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #333;
+}
+
+.nav-footer-links li a:hover {
+  color: #fff;
+}
+
+#last-fund {
+  display: none;
+}
+
+/* Media Queeries */
+
+/* Desktop */
+
+@media screen and (min-width: 1024px) {
+  /* Header Nav top */
+  .logo {
+    display: none;
+  }
+
+  .nav-top {
+    display: block;
+  }
+
+  .nav-link {
+    display: block;
+  }
+
+  .nav-links {
+    display: block;
+    position: absolute;
+    will-change: opacity;
+    margin-left: 15px;
+  }
+
+  .notify {
+    text-align: left;
+    margin-top: 50px;
+    height: 30px;
+    margin-left: -106px;
+    padding-left: 126px;
+  }
+
+  .notify .notify-text {
+    box-shadow: 0 16px 48px rgb(0 0 0 / 15%);
+    line-height: 30px;
+    background: #fd3;
+    color: #000;
+    font-size: 13px;
+  }
+
+  .highlight-section {
+    height: 85vh;
+    max-height: 560px;
+    display: grid;
+  }
+
+  .cover-story {
+    grid-column: 3/4;
+  }
+
+  .cover-story .cover-title {
+    font-size: 28px;
+  }
+
+  .cover-gradient {
+    background-image: url(./Assets/cover-gradient.png);
+    background-position: 0 0;
+    background-size: cover;
+    bottom: 4px;
+    left: 4px;
+    mix-blend-mode: lighten;
+    pointer-events: none;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    z-index: 4;
+  }
+
+  .cover-logo {
+    background: transparent url(./Assets/tnw.svg) no-repeat;
+    background-size: contain;
+    max-width: 50%;
+    height: 100%;
+    max-height: 112px;
+    line-height: 1;
+    pointer-events: none;
+    z-index: 9;
+    position: absolute;
+    width: 100%;
+    top: 24px;
+    left: 24px;
+  }
+
+  .cover-list {
+    font-size: 12px;
+  }
+
+  .cover-story-1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / span 2;
+  }
+
+  .latest-funding-section {
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+  }
+
+  .latest-funding-h2,
+  .funding-links,
+  .funding-links li {
+    display: inline-block;
+  }
+
+  .funding-links {
+    float: right;
+  }
+
+  .funding-links li {
+    margin-left: 20px;
+  }
+
+  .funding-layout ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .funding-outline {
+    flex: 1 2;
+    margin: 0 15px;
+  }
+
+  .funding-border {
+    border-left: 1px solid #f42;
+    padding-left: 20px;
+  }
+
+  .nav-icons ul li:last-child {
+    display: none;
+  }
+
+  #last-fund {
+    display: block;
+  }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Header Nav top */
+  .nav-top {
+    display: block;
+  }
+
+  .nav-top-ul {
+    margin-left: 100px;
+  }
+
+  .logo img {
+    position: absolute;
+    top: 5px;
+  }
+
+  .logo {
+    position: relative;
+    width: 75px;
+    height: 20px;
+  }
+
+  .nav-company {
+    display: none;
+  }
+
+  .nav-links {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+  }
+
+  .nav-bar {
+    height: 50px;
+    position: relative;
+  }
+
+  #last-fund {
+    display: none;
+  }
+
+  .funding-links li {
+    margin-left: 20px;
+  }
+
+  .funding-layout ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .funding-outline {
+    flex: 1 2;
+    margin: 0 15px;
+  }
+
+  .nav-link {
+    font-size: 12px;
+    padding-top: 1px;
+  }
+
+  .nav-icons ul li:last-child {
+    display: none;
+  }
+
+  .notify {
+    margin-left: -106px;
+    padding-left: 126px;
+    text-align: left;
+  }
+
+  .highlight-section {
+    height: 85vh;
+    max-height: 560px;
+    display: grid;
+  }
+
+  .cover-story {
+    grid-column: 3/4;
+  }
+
+  .cover-story-1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / span 2;
+  }
+}
