@@ -140,6 +140,10 @@ ul {
   padding: 15px;
 }
 
+.nav-right-list {
+  float: right;
+}
+
 .notify {
   background-color: #fd3;
   text-overflow: ellipsis;
