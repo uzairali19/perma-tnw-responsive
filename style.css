@@ -551,6 +551,335 @@ main {
   color: #aaa;
 }
 
+.categories-section {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 20px;
+}
+
+.categories-heading {
+  color: #f42;
+  text-decoration: none;
+}
+
+.categories-layout {
+  height: 0;
+  padding-top: 75%;
+  position: relative;
+  width: 100%;
+}
+
+.categories-img {
+  background-color: #000;
+  background-size: cover;
+  background-position: 50%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.categories-trigger {
+  background: transparent url(./Assets/image-gradient.png) no-repeat;
+  background-size: 100% 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.categories-body {
+  bottom: 0;
+  left: 0;
+  padding: 14px;
+  position: absolute;
+  right: 0;
+  z-index: 3;
+}
+
+.categories-body-heading {
+  color: #fff;
+  font-size: 13px;
+  pointer-events: none;
+}
+
+.categories-body-main {
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.latest-category-section {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(255, 68, 34, 0.06);
+  margin: 2px 0;
+}
+
+.latest-category-layout {
+  flex: 1;
+  overflow: hidden;
+  padding: 10px 14px 0;
+}
+
+.head-5 {
+  color: #f42;
+  font-size: 13px;
+  font-family: shentox, sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.head-4 {
+  max-height: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.head-4-text {
+  color: #f42;
+  text-decoration: none;
+}
+
+.category-sub-img {
+  flex: 0 0 96px;
+  background-color: #000;
+  background-position: 50%;
+  background-size: cover;
+  height: 96px;
+  width: 96px;
+}
+
+.category-list {
+  border-bottom: 1px solid #eee;
+}
+
+.category-headline-title {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.headline-anchor {
+  color: #555;
+  display: block;
+  padding: 6px 0 6px 14px;
+  position: relative;
+}
+
+/* All Catergories Image Links */
+
+.cat-img-1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/william-krause-2gzn9qRw8wI-unsplash-e1612418861681-368x276.jpg);
+}
+
+.cat-img-2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/Hotline-Facebook-368x276.png);
+}
+
+.cat-img-3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/Hotline-Facebook-368x276.png);
+}
+
+.cat-img-4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/bleepfeat-368x276.jpg);
+}
+
+.cat-img-5 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/Untitled-design-13-368x276.png);
+}
+
+.cat-img-6 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/open-source-code-gq-368x276.png);
+}
+
+.cat-img-7 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/norway-electricity-plane-2040-plans-commercial-domestic-ev-future-368x276.jpg);
+}
+
+.cat-img-8 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/03/bruno-bucar-Q6F-7N-ZsWY-unsplash-ev-shift-newsletter-future-electric-car-ebike.-excooter-signup-368x276.jpg);
+}
+
+.cat-img-9 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/ab1943-368x276.png);
+}
+
+/* Sub Images in categories */
+
+.sub-img-1 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/10/coinbase.jpg);
+}
+
+.sub-img-2 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/header-image-new-iOS-icons-ios-15.png);
+}
+
+.sub-img-3 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/Hub-vs-mid-drive-ebike-e-bike-motor.jpg);
+}
+
+.sub-img-4 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/spacetank.jpg);
+}
+
+.sub-img-5 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/09/Untitled-design-13.jpg);
+}
+
+.sub-img-6 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/10/google-logo-podium.png);
+}
+
+.sub-img-7 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/04/Autonomous-driving-Barcelona.jpg);
+}
+
+.sub-img-8 {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/12/toyota-battery-solid-state-car-next-year-test-ev-future-electric-vehicle.jpg);
+}
+
+.sub-img-9 {
+  background-image: url(https://i.ytimg.com/vi/xcBEw9FTHqg/hqdefault.jpg);
+}
+
+/* Latest Deals */
+
+.latest-deals-section {
+  margin: 0 auto;
+  max-width: 1192px;
+  padding: 0 20px;
+  margin-top: 50px;
+}
+
+.latest-deals-heading {
+  color: #f42;
+}
+
+.deals-heading-layout {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-family: Avalon, sans-serif;
+  font-size: 28px;
+  letter-spacing: -0.015em;
+}
+
+.deals-link {
+  float: right;
+  line-height: 18px;
+  margin-top: 11px;
+  color: #f42;
+}
+
+.deals-sturcture {
+  display: flex;
+  flex: 0 1 auto;
+  flex-flow: row wrap;
+  margin: -8px;
+}
+
+.deals-layout {
+  flex-basis: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.deals-outline {
+  min-height: 72px;
+  padding-left: 88px;
+  position: relative;
+}
+
+.deals-img {
+  left: 0;
+  padding-top: 75px;
+  position: absolute;
+  top: 0;
+  width: 75px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.deals-discount {
+  display: none;
+}
+
+.deal-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  word-wrap: break-word;
+}
+
+.anchor-color {
+  color: #000;
+}
+
+.deal-price {
+  color: #aaa;
+  font-size: 12px;
+  line-height: 18px;
+  padding-top: 4px;
+  vertical-align: baseline;
+}
+
+.old-price {
+  text-decoration: line-through;
+  margin-right: 4px;
+}
+
+.new-price {
+  color: #555;
+  font-size: 14px;
+}
+
+/* All Deals Images */
+
+.deal-img-1 {
+  background-image: url(https://cdnp1.stackassets.com/6eed0ad7bba466fd2f66b25fb5903069c40df29c/store/e03c6e5eab8f15fa8b63bac8dfb74b8bf55d48c4ad740efced9c5be81c26/sale_205214_primary_image.jpg);
+}
+
+.deal-img-2 {
+  background-image: url(https://cdnp3.stackassets.com/803501534e4f3a75e82d16033fcc6b9a9825fda3/store/ce05162579f37f3f58a112b4e40388fcb2c13ead8ef34dc60c2d72f2a2c2/sale_136716_primary_image.png);
+}
+
+.deal-img-3 {
+  background-image: url(https://cdnp1.stackassets.com/fb70a8104f0c0d6709b0c16ef22a709cf884b42a/store/4e47b39b0960560885dcbce078e8d4f4fa1a3b053ef4cce2286bd12bd6e0/sale_189319_primary_image.jpg);
+}
+
+.deal-img-4 {
+  background-image: url(https://cdnp2.stackassets.com/fdd50dcd5f60b452da4303382ca0198ba3a0821b/store/3240ea54b8728398c673b2b9575a7013de3113983e2ebb261edc300ecc44/sale_205209_primary_image.jpg);
+}
+
+.deal-img-5 {
+  background-image: url(https://cdnp1.stackassets.com/dd234a31fc7b5a033904d433e02bd2279656ece8/store/b044646a30d60253b156f4eb58f3d25ea14c2f3197b4a05614e4068c17bf/sale_48030_primary_image.jpg);
+}
+
+.deal-img-6 {
+  background-image: url(https://cdnp3.stackassets.com/70adaf4099c24431e2fb8b6eae9cd12b4769e81e/store/3e63cb24147e43f74c6a14c1fa20f34fdc2fe2212b9bfbe65f9bc5f2173e/sale_10502_primary_image.jpg);
+}
+
+.deal-img-7 {
+  background-image: url(https://cdnp3.stackassets.com/443ff2a9ad84b0de3b1c19819bd1b6dc2b7136ac/store/4fdc9269ae889a8aca4cb4338d35031cbadbe0b76152b3ed2d33b96a9ebb/sale_195397_primary_image.jpg);
+}
+
+.deal-img-8 {
+  background-image: url(https://cdnp2.stackassets.com/dc962f6713f11abc4199ad3b10a1806429f9fea4/store/b7664b64edc1f589fe938f01ca9af631cce49cf7c79977bcb76747e8283f/sale_27633_primary_image.jpg);
+}
+
 /* HoverTags */
 
 .top-bar-content a:hover {
@@ -569,6 +898,22 @@ main {
 
 #last-fund {
   display: none;
+}
+
+.headline-anchor:hover {
+  color: #000;
+}
+
+.headline-anchor::before {
+  background-color: #f42;
+  border-radius: 50%;
+  content: "";
+  display: block;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  top: 13px;
+  width: 4px;
 }
 
 /* Media Queeries */
@@ -707,6 +1052,131 @@ main {
   #last-fund {
     display: block;
   }
+
+  .latest-news-section {
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+    margin-top: 60px;
+  }
+
+  .news-story {
+    display: flex;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+  }
+
+  .news-outline {
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+
+  .news-layout {
+    margin: 0;
+    padding: 12px;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+  }
+
+  .news-layout .news-layout-img {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-top: 50%;
+    width: 100%;
+    margin-bottom: 8px;
+    position: relative;
+  }
+
+  .news-layout-heading-text {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .news-sub p {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .section-wrapper {
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+  }
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+
+  .categories-heading {
+    font-size: 28px;
+  }
+
+  .deals-structure {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .deals-layout {
+    padding: 12px;
+  }
+
+  .deals-outline {
+    position: relative;
+    padding-left: 0;
+  }
+
+  .deals-img {
+    background-position: 0 100%;
+    padding-top: 74.5%;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 8px;
+    position: relative;
+  }
+
+  .deals-discount {
+    background-image: url(./Assets/deals-ribbon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #000;
+    display: block;
+    height: 80px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    z-index: 10;
+  }
+
+  .discount-head {
+    transform:
+      rotate(
+        45deg
+      );
+    font-size: 14px;
+    font-weight: 700;
+    left: 8px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 20px;
+    width: 100%;
+  }
 }
 
 /* Tablet */
@@ -794,5 +1264,106 @@ main {
   .cover-story-1 {
     grid-column: 1 / 3;
     grid-row: 1 / span 2;
+  }
+
+  .latest-news-section {
+    margin-top: 60px;
+  }
+
+  .news-story {
+    display: flex;
+    flex: 0 1 auto;
+    flex-flow: row wrap;
+  }
+
+  .news-outline {
+    flex-basis: 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+
+  .news-layout .news-layout-img {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    padding-top: 50%;
+    width: 100%;
+    margin-bottom: 8px;
+    position: relative;
+  }
+
+  .news-layout {
+    margin: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    padding: 10px;
+  }
+
+  .grid-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+  }
+
+  .deals-structure {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .deals-layout {
+    padding: 10px;
+  }
+
+  .deals-outline {
+    padding: 0;
+  }
+
+  .deals-img {
+    background-position: 0 100%;
+    padding-top: 74.5%;
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 8px;
+    position: relative;
+  }
+
+  .deals-discount {
+    background-image: url(./Assets/deals-ribbon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: #000;
+    display: block;
+    height: 80px;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 80px;
+    z-index: 10;
+  }
+
+  .discount-head {
+    transform:
+      rotate(
+        45deg
+      );
+    font-size: 14px;
+    font-weight: 700;
+    left: 8px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    top: 20px;
+    width: 100%;
   }
 }
